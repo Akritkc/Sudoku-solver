@@ -1,8 +1,7 @@
 # Sudoku-solver using backtracking
 
   # our puzzle is a list of lists, where each inner list is a row in our sudoku puzzle
-  # return solution
-
+  
   # step 1: choose somewhere on the puzzle to make a guess
   # step 1.1: if there's nowhere left, then we're done because we only allowed valid inputs
   # step 2: if there is a place to put a number, then make a guess between 1 and 9
